@@ -1,0 +1,46 @@
+localStorage.setItem("token", "")
+
+
+
+
+
+1. Watchlist Functionality
+Let users add stocks to a personal watchlist.
+
+✅ Store in MongoDB per user.
+
+✅ Show price changes in real time (or on refresh).
+
+✅ Add/remove buttons next to each stock.
+
+2. Order Modal with Quantity & Price
+Upgrade Buy/Sell buttons to open a modal:
+
+Choose quantity, limit/market order.
+
+Confirm before placing.
+
+Store in orders collection.
+
+3. Trade History with Filters
+Your /trades page can show:
+
+✅ Date-wise trades
+
+✅ Filter by stock, type (buy/sell), date range
+
+✅ Export to CSV (optional)
+
+4. Real-Time Price Updates (Socket.io or polling)
+Instead of static prices:
+
+Use mock API or WebSocket to simulate live price changes.
+
+Animate price changes with green/red flash.
+
+5. Portfolio Valuation
+In /portfolio:
+
+Show total invested, current value, profit/loss.
+
+Pie chart of holdings (use Chart.js or Recharts).
